@@ -1,0 +1,78 @@
+.main{
+background-color: bisque;
+border: 3px solid green;
+border-radius: 10px;
+width: 100%;
+height: 1200px;
+
+}
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+height: 600px;
+align-content: space-between;
+
+
+}
+.single-item{
+    background-color: rgb(126, 14, 111);
+    border: 3px solid rgb(10, 0, 10);
+    border-radius: 10px;
+    width: 15%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2rem;
+    color: white;
+  
+    
+    
+}
+.item-1{
+    min-height: 100px;
+    box-shadow: 10px;
+}
+.item-2{
+    min-height: 150px;
+}
+.item-3{
+    min-height: 200px;
+}
+.item-4{
+    min-height: 100px;
+}
+.item-5{
+    min-height: 50px;
+}
+.item-6{
+    min-height: 150px;
+}
+.item-6 > div:nth-child(1){
+    height: 150px;
+    background-color: rgb(167, 151, 151);
+}
+.item-7{
+    min-height: 200px;
+}
+.item-7 > div:nth-child(1){
+    background-color: rgb(201, 175, 175);
+    margin: 12px;
+}
+.item-7 > div:nth-child(2){
+    background-color: rgb(201, 175, 175);
+    margin: 12px;
+}
+.item-7 > div:nth-child(3){
+    background-color: rgb(201, 175, 175);
+    margin: 12px;
+}
+.item-7 > div:nth-child(4){
+    background-color: rgb(201, 175, 175);
+    margin: 12px;
+}
+.item-8{
+    min-height: 400px;
+    width: 96rem;
+    background-color: brown;
+}
